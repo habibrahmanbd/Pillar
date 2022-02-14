@@ -8,6 +8,10 @@
 import Foundation
 import SwiftUI
 
+struct DefaultsKey{
+    static let curCity = "Edmonton, Canada"
+}
+
 struct Prayer: Decodable{
     //var resCode: ResponseCode
     //var resStatus: String
