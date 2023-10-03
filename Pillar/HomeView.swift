@@ -37,6 +37,9 @@ struct HomeView: View {
     }
     var body: some View {
         VStack(alignment: .center, spacing: 0){
+            Image("Cover")
+                .padding(.bottom, 20)
+                .fixedSize()
             Section{
                     let date = String(DateFormatter.localizedString(from: Date(), dateStyle: .medium, timeStyle: .none))
                     
